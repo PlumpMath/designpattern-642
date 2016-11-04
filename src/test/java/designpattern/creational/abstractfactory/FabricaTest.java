@@ -1,10 +1,8 @@
 package designpattern.creational.abstractfactory;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
-
-import junit.framework.Assert;
 
 public class FabricaTest {
 
@@ -12,7 +10,7 @@ public class FabricaTest {
 	public void testFabricaCarrosFiat() {
 		
 		Fabrica fabrica = new FabricaFiat();
-		
+
 		CarroPopular popular = fabrica.criaCarroPopular();
 		CarroSedan sedan = fabrica.criaCarroSedan();
 		
@@ -30,5 +28,6 @@ public class FabricaTest {
 		
 		assertTrue(popular instanceof Celta);
 		assertTrue(sedan instanceof Camaro);
+		
 	}
 }
