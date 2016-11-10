@@ -16,6 +16,8 @@ public class ProxyImage implements Image {
 		realImage.display();
 	}
 	
-	
+	public Image getRealImage() {
+		return this.realImage;
+	}
 
 }
