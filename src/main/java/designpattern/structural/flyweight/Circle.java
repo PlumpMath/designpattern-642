@@ -23,10 +23,9 @@ public class Circle implements Shape {
 		this.radius = radius;
 	}
 
-
-
 	public void draw() {
-		System.out.println("Circle::draw() [Color: " + this.color + ", x: " + this.x + ", y: " + this.y);
+		System.out.println("Circle::draw() [Color: " + this.color 
+											+ ", x: " + this.x + ", y: " + this.y + ", radius: " + this.radius);
 	}
 
 }

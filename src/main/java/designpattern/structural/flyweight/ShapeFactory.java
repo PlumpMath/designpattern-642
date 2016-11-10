@@ -17,5 +17,9 @@ public class ShapeFactory {
 		
 		return circle; 
 	}
+	
+	public static int getNumberCircleObjects() {
+		return circleMap.size();
+	}
 
 }
