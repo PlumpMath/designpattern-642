@@ -1,2 +1,6 @@
 - Creational design patterns abstract the instantiation process.
 - Structural patterns are concerned with how classes and objects are composed to form larger structures.
+- Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects.
+             Behavioral patterns describe not just patterns of objects or classes but also the patterns of communication between them.
+ 
+ 
