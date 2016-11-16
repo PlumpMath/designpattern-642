@@ -1,6 +1,6 @@
 package designpattern.behavior.iterator;
 
-public class NameRepository implements Container {
+public class NameRepository {
 	
 	public String names[] = {"Robert", "John", "Julie", "Lora"};
 
